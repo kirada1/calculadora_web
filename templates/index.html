@@ -25,12 +25,13 @@
 
   <body>
     <div class="calculator-container">
-      <div class="display"></div>
-      {% if expressao%}
-        <p>{{expressao}}</p>
-      {% else %}
-        <p>0</p>
-      {% endif %}
+      <div class="display">
+        {% if expressao%}
+          <p>{{expressao}}</p>
+        {% else %}
+          <p>0</p>
+        {% endif %}
+      </div>
       
       <form class="keys" method="POST" action="/">
         <button class="key key-clear" name="key" value="c">C</button>
