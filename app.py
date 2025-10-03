@@ -18,7 +18,6 @@ def index():
             session["tecla"] = ""
 
         elif tecla == "backspace":
-
             try:
                 session["tecla"] = session["tecla"][:-1]
             except Exception as e:
