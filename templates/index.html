@@ -4,37 +4,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../static/style.css" />
 
     <title>Calculadora Web</title>
+
+    <!-- Estilo -->
+    <link href="../static/style.css" rel="stylesheet" />
+
+    <!-- Google icones-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=backspace"
+      rel="stylesheet"
+    />
+
+    <!-- Google fontes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mada:wght@500&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="calculator-container">
-      <div class="display">
-        <span class="result">0</span>
-      </div>
+      <div class="display">0</div>
 
-      <div class="keys">
-        <button type="submit" name="key-clear" value="c" class="key-clear">C</button>
-        <button type="submit" name="key-division" value="/" class="key-division">÷</button>
-        <button type="submit" name="key-multiply" value="*" class="key-multiply">×</button>
-        <button type="submit" name="key-seven" value="7" class="key-seven">7</button>
-        <button type="submit" name="key-eight" value="8" class="key-eight">8</button>
-        <button type="submit" name="key-nine" value="9" class="key-nine">9</button>
-        <button type="submit" name="key-subtract" value="-" class="key-subtract">-</button>
-        <button type="submit" name="key-four" value="4" class="key-four">4</button>
-        <button type="submit" name="key-five" value="5" class="key-five">5</button>
-        <button type="submit" name="key-six" value="6" class="key-six">6</button>
-        <button type="submit" name="key-addition" value="+" class="key-addition">+</button>
-        <button type="submit" name="key-one" value="1" class="key-one">1</button>
-        <button type="submit" name="key-two" value="2" class="key-two">2</button>
-        <button type="submit" name="key-three" value="3" class="key-three">3</button>
-        <button type="submit" name="key-equals" value="=" class="key-equals">=</button>
-        <button type="submit" name="key-zero" value="0" class="key-zero">0</button>
-        <button type="submit" name="key-comma" value="," class="key-comma">,</button>
-        <button type="submit" name="key-backspace" value="backspace" class="key-backspace">⌫</button>
-      </div>
+      <form class="keys" method="POST">
+        <button class="key key-clear" name="key" value="c">C</button>
+        <button class="key" name="key" type="submit" value="/">÷</button>
+        <button class="key" name="key" type="submit" value="*">×</button>
+        <button class="key" name="key" type="submit" value="7">7</button>
+        <button class="key" name="key" type="submit" value="8">8</button>
+        <button class="key" name="key" type="submit" value="9">9</button>
+        <button class="key" name="key" type="submit" value="-">-</button>
+        <button class="key" name="key" type="submit" value="4">4</button>
+        <button class="key" name="key" type="submit" value="5">5</button>
+        <button class="key" name="key" type="submit" value="6">6</button>
+        <button class="key" name="key" type="submit" value="+">+</button>
+        <button class="key" name="key" type="submit" value="1">1</button>
+        <button class="key" name="key" type="submit" value="2">2</button>
+        <button class="key" name="key" type="submit" value="3">3</button>
+        <button class="key key-equals" name="key" type="submit" value="=">=</button>
+        <button class="key" name="key" type="submit" value="0">0</button>
+        <button class="key key-comma" name="key" type="submit" value=",">,</button>
+        <button class="key key-backspace" name="key" type="submit" value="backspace">
+          <span class="material-symbols-outlined"> backspace </span>
+        </button>
+      </form>
     </div>
   </body>
 </html>
