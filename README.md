@@ -35,6 +35,14 @@ Uma calculadora simples que utiliza **Python (Flask)** para resolver cálculos m
 - **Backend:** Python (Flask)  
 - **Controle de Versão:** Git & GitHub  
 
+--- 
+
+## 📚 Recursos Externos
+
+- **Google fonte** - [Mada](https://fonts.google.com/specimen/Mada?query=Mada)
+- **Google icons** - [Backspace](https://fonts.google.com/icons?query=Mada&selected=Material+Symbols+Outlined:backspace:FILL@0;wght@400;GRAD@0;opsz@24&icon.query=backspace&icon.size=24&icon.color=%23e3e3e3])
+
+
 ---
 
 ## ▶️ Como Executar
