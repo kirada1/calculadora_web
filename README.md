@@ -55,7 +55,7 @@ Uma calculadora simples que utiliza **Python (Flask)** para resolver cálculos m
 ### ⚙️ Passo a passo
 ```bash
 # Clone este repositório
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone https://github.com/kirada1/calculadora_web.git
 
 # Acesse a pasta do projeto
 cd seu-projeto
